@@ -1,6 +1,7 @@
 # People-Counter-and-Nullifier
 Counts people in a real time video and shows bbox around them , Also you can nullify or ignore some people from count like employees or guards.<br />
 It can be used in situations where you want to count only customers in a shop and ignore the employees or guards present.<br />
+Now it is trained , to detect people other than police or uniformed men/women.
 ## How it works
 - First, we take each frame of video and using any object detection model. Here, I used SSD mobilenet , detect all the objects present.
 - Since, we all only concerned with people only, we narrow it down and get the coordinates of all people.
