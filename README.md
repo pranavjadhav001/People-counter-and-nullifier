@@ -10,7 +10,7 @@ It can be used in situations where you want to count only customers in a shop an
 - Ignore all employees and don't count and bbox them.
 
 #### How it looks 
-image coming soon
+![alt text](https://github.com/pranavjadhav001/People-counter-and-nullifier/blob/master/pictures/Capture.PNG)
 
 ## How to use
 python final.py -m trained_classification_models -v path to video_file 
